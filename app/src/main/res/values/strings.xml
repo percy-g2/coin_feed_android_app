@@ -3,4 +3,5 @@
     <string name="warning_icon">warning icon</string>
     <string name="error_in_retrieving_data">Error in retrieving data</string>
     <string name="few_seconds_ago">few seconds ago</string>
+    <string name="rupee_symbol">\u20B9</string>
 </resources>

@@ -26,10 +26,10 @@ class TickerRecyclerViewAdapter(private val context: Context, private var ticker
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         with(holder) {
             with(ticker.btc.ticker[position]) {
-                binding.exchangeName.text = this.exchangeName
-                binding.price.text = this.price.toString()
-                if (this.exchangeSymbol != "WAZIRX" &&  this.exchangeSymbol != "COINDCX") {
-                    TimeUtil.getMinWithMicroSecs(this.at).also {
+                binding.exchangeName.text = exchangeName
+                binding.price.text = context.getString(R.string.rupee_symbol).plus(" ").plus(price.toString())
+                if (this.exchangeSymbol != "WAZIRX" &&  exchangeSymbol != "COINDCX") {
+                    TimeUtil.getMinWithMicroSecs(at).also {
                         if (it > 0) {
                             binding.time.text = it.toString().plus(" min ago")
                         } else {
@@ -37,7 +37,7 @@ class TickerRecyclerViewAdapter(private val context: Context, private var ticker
                         }
                     }
                 } else {
-                    TimeUtil.getMinWithMilliSecs(this.at).also {
+                    TimeUtil.getMinWithMilliSecs(at).also {
                         if (it > 0) {
                             binding.time.text = it.toString().plus(" min ago")
                         } else {
@@ -59,7 +59,6 @@ class TickerRecyclerViewAdapter(private val context: Context, private var ticker
     }
 
     fun updateData(ticker: Ticker) {
-        this.ticker
         this.ticker = ticker
         notifyDataSetChanged()
     }
