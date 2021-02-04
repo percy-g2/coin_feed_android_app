@@ -6,7 +6,6 @@ import org.koin.core.KoinComponent
 import org.koin.core.inject
 
 class TickerRepository : KoinComponent {
-
     private val mTickerAPIService: TickerAPIService by inject()
 
     /**
@@ -19,6 +18,4 @@ class TickerRepository : KoinComponent {
     private suspend fun processDataFetchLogic(): Ticker{
         return mTickerAPIService.getTickerData()
     }
-
-
 }

@@ -59,7 +59,7 @@ class MainFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener {
             LiveDataWrapper.RESPONSESTATUS.ERROR -> {
                 // Error for https request
                 _binding.errorHolder.visibility = View.VISIBLE
-                Log.d("mDataObserver", "LiveDataResult.Status.ERROR = ${result.response}")
+                Log.d("mDataObserver", "LiveDataResult.Status.ERROR = ${result.error}")
 
             }
             LiveDataWrapper.RESPONSESTATUS.SUCCESS -> {

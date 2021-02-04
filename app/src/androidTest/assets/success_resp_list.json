@@ -1,0 +1,866 @@
+{
+  "BTC": {
+    "ticker": [
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 2740332.0,
+        "at": "2021-02-04T09:32:40.375443Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2734277.0,
+        "at": "2021-02-04T09:31:04.628022Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 2735000.0,
+        "at": "2021-02-04T09:36:25.353799Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 2709946.11,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 2742717.0,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 2723900.34,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2734774.09,
+        "at": "2021-02-04T09:31:04.628022Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 2739999.0,
+        "at": "2021-02-04T09:36:25.353799Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 2740332.0,
+        "at": "2021-02-04T09:32:40.375443Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 2750999.0,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 2743260.0,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 2735000.0,
+        "at": "2021-02-04T09:36:25.353799Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2734277.0,
+        "at": "2021-02-04T09:31:04.628022Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 2718221.29,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 2698480.0,
+        "at": "2021-02-04T09:32:40.375443Z"
+      }
+    ]
+  },
+  "XRP": {
+    "ticker": [
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 28.75,
+        "at": "2021-02-04T09:32:40.808717Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 28.42,
+        "at": "2021-02-04T09:31:04.648985Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 28.46,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 28.7,
+        "at": "2021-02-04T09:36:25.384058Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 28.5623,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 28.42,
+        "at": "2021-02-04T09:31:04.648985Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 28.46,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 28.5623,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 28.69,
+        "at": "2021-02-04T09:36:25.384058Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 28.75,
+        "at": "2021-02-04T09:32:40.808717Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 28.68,
+        "at": "2021-02-04T09:36:25.384058Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 28.5214,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 28.3,
+        "at": "2021-02-04T09:31:04.648985Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 28.27,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 27.9,
+        "at": "2021-02-04T09:32:40.808717Z"
+      }
+    ]
+  },
+  "ETH": {
+    "ticker": [
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 120089.64,
+        "at": "2021-02-04T09:32:40.496778Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 119260.49,
+        "at": "2021-02-04T09:31:04.686527Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 118847.0,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 119880.0,
+        "at": "2021-02-04T09:36:25.368701Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 119201.0,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 119141.95,
+        "at": "2021-02-04T09:31:04.686527Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 119202.5,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 119320.0,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 119880.0,
+        "at": "2021-02-04T09:36:25.368701Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 120089.64,
+        "at": "2021-02-04T09:32:40.496778Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 119200.8,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 119092.0,
+        "at": "2021-02-04T09:36:25.368701Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 118888.88,
+        "at": "2021-02-04T09:31:04.686527Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 118847.0,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 117033.84,
+        "at": "2021-02-04T09:32:40.496778Z"
+      }
+    ]
+  },
+  "TRX": {
+    "ticker": [
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 2.45,
+        "at": "2021-02-04T09:32:40.715774Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2.4,
+        "at": "2021-02-04T09:31:04.781423Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 2.4,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 2.452,
+        "at": "2021-02-04T09:36:25.425393Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 2.4277,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2.42,
+        "at": "2021-02-04T09:31:04.781423Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 2.4275,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 2.44,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 2.45,
+        "at": "2021-02-04T09:32:40.715774Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 2.45,
+        "at": "2021-02-04T09:36:25.425393Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 2.44,
+        "at": "2021-02-04T09:36:25.425393Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 2.425,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2.4,
+        "at": "2021-02-04T09:31:04.781423Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 2.4,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 2.36,
+        "at": "2021-02-04T09:32:40.715774Z"
+      }
+    ]
+  },
+  "USDT": {
+    "ticker": [
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 73.98,
+        "at": "2021-02-04T09:32:40.748027Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 73.49,
+        "at": "2021-02-04T09:31:05.230396Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 73.63,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 73.45,
+        "at": "2021-02-04T09:36:25.467104Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 73.8,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 73.45,
+        "at": "2021-02-04T09:36:25.467104Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 73.49,
+        "at": "2021-02-04T09:31:05.230396Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 73.62,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 73.8,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 73.98,
+        "at": "2021-02-04T09:32:40.748027Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 73.71,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 73.53,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 73.45,
+        "at": "2021-02-04T09:31:05.230396Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 73.4,
+        "at": "2021-02-04T09:36:25.467104Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 72.91,
+        "at": "2021-02-04T09:32:40.748027Z"
+      }
+    ]
+  },
+  "MATIC": {
+    "ticker": [
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2.95,
+        "at": "2021-02-04T09:31:05.747610Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 3.0,
+        "at": "2021-02-04T09:32:40.582935Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 3.025,
+        "at": "2021-02-04T09:36:25.479308Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 3.0,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2.95,
+        "at": "2021-02-04T09:31:05.747610Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 3.0,
+        "at": "2021-02-04T09:32:40.582935Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 3.02,
+        "at": "2021-02-04T09:36:25.479308Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 3.024,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 3.0,
+        "at": "2021-02-04T09:36:25.479308Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 3.0,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 2.92,
+        "at": "2021-02-04T09:31:05.747610Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 2.9,
+        "at": "2021-02-04T09:32:40.582935Z"
+      }
+    ]
+  },
+  "BCH": {
+    "ticker": [
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 31483.14,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 31503.39,
+        "at": "2021-02-04T09:32:40.343701Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 31500.0,
+        "at": "2021-02-04T09:31:05.352445Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 31602.0,
+        "at": "2021-02-04T09:36:25.412288Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 31600.0,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 31503.39,
+        "at": "2021-02-04T09:32:40.343701Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 31600.0,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 31603.0,
+        "at": "2021-02-04T09:36:25.412288Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 32672.69,
+        "at": "2021-02-04T09:31:05.352445Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 32999.0,
+        "at": "2021-02-04T09:36:24Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 31601.08,
+        "at": "2021-02-04T09:36:25.412288Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 31550.0,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 31000.41,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 30973.81,
+        "at": "2021-02-04T09:31:05.352445Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 30683.49,
+        "at": "2021-02-04T09:32:40.343701Z"
+      }
+    ]
+  },
+  "BNB": {
+    "ticker": [
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 3750.0,
+        "at": "2021-02-04T09:36:25.565387Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 3865.84,
+        "at": "2021-02-04T09:32:40.353596Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 3905.52,
+        "at": "2021-02-04T09:31:05.596393Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 3792.46,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 3852.5,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 3838.5,
+        "at": "2021-02-04T09:36:25.565387Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 3865.84,
+        "at": "2021-02-04T09:32:40.353596Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 3877.99,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 3905.52,
+        "at": "2021-02-04T09:31:05.596393Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 3919.01,
+        "at": "2021-02-04T09:36:24Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 3852.5,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 3788.33,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 3765.09,
+        "at": "2021-02-04T09:32:40.353596Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 3761.0,
+        "at": "2021-02-04T09:36:25.565387Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 3750.04,
+        "at": "2021-02-04T09:31:05.596393Z"
+      }
+    ]
+  },
+  "LTC": {
+    "ticker": [
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 10718.43,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 10905.97,
+        "at": "2021-02-04T09:32:40.574092Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 10785.62,
+        "at": "2021-02-04T09:31:04.722996Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 10809.0,
+        "at": "2021-02-04T09:36:25.453001Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 10800.0,
+        "at": "2021-02-04T09:34:32Z"
+      }
+    ],
+    "buy": [
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 10799.77,
+        "at": "2021-02-04T09:31:04.722996Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 10800.0,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 10839.8,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 10850.0,
+        "at": "2021-02-04T09:36:25.453001Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 10905.97,
+        "at": "2021-02-04T09:32:40.574092Z"
+      }
+    ],
+    "sell": [
+      {
+        "exchange_symbol": "ZEBPAY",
+        "exchange_name": "Zebpay",
+        "price": 10809.0,
+        "at": "2021-02-04T09:36:25.453001Z"
+      },
+      {
+        "exchange_symbol": "COINDCX",
+        "exchange_name": "Coindcx",
+        "price": 10785.04,
+        "at": "2021-02-04T09:36:24Z"
+      },
+      {
+        "exchange_symbol": "WAZIRX",
+        "exchange_name": "Wazirx",
+        "price": 10780.0,
+        "at": "2021-02-04T09:34:32Z"
+      },
+      {
+        "exchange_symbol": "BITBNS",
+        "exchange_name": "Bitbns",
+        "price": 10758.89,
+        "at": "2021-02-04T09:31:04.722996Z"
+      },
+      {
+        "exchange_symbol": "POCKETBITS",
+        "exchange_name": "Pocketbits",
+        "price": 10618.94,
+        "at": "2021-02-04T09:32:40.574092Z"
+      }
+    ]
+  }
+}

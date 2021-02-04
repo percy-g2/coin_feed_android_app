@@ -15,7 +15,7 @@ class LiveDataWrapper<T>(
 
     companion object {
         fun <T> loading() = LiveDataWrapper<T>(RESPONSESTATUS.LOADING)
-        fun <T> success (data: T) = LiveDataWrapper<T>(RESPONSESTATUS.SUCCESS, data)
+        fun <T> success (data: T) = LiveDataWrapper(RESPONSESTATUS.SUCCESS, data)
         fun <T> error(err: Throwable) = LiveDataWrapper<T>(RESPONSESTATUS.ERROR, null, err)
     }
 }
