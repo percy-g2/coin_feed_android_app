@@ -2,4 +2,5 @@
     <string name="app_name">Coin Feed</string>
     <string name="warning_icon">warning icon</string>
     <string name="error_in_retrieving_data">Error in retrieving data</string>
+    <string name="few_seconds_ago">few seconds ago</string>
 </resources>

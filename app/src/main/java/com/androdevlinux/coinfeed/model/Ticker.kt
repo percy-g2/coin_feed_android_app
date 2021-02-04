@@ -14,35 +14,35 @@ data class TickerItem(@SerializedName("exchange_name")
 
 
 data class MATIC(@SerializedName("ticker")
-                 val ticker: List<TickerItem>?,
+                 val ticker: List<TickerItem> = emptyList(),
                  @SerializedName("buy")
-                 val buy: List<BuyItem>?,
+                 val buy: List<BuyItem> = emptyList(),
                  @SerializedName("sell")
-                 val sell: List<SellItem>?)
+                 val sell: List<SellItem> = emptyList())
 
 
 data class BCH(@SerializedName("ticker")
-               val ticker: List<TickerItem>?,
+               val ticker: List<TickerItem> = emptyList(),
                @SerializedName("buy")
-               val buy: List<BuyItem>?,
+               val buy: List<BuyItem> = emptyList(),
                @SerializedName("sell")
-               val sell: List<SellItem>?)
+               val sell: List<SellItem> = emptyList())
 
 
 data class USDT(@SerializedName("ticker")
-                val ticker: List<TickerItem>?,
+                val ticker: List<TickerItem> = emptyList(),
                 @SerializedName("buy")
-                val buy: List<BuyItem>?,
+                val buy: List<BuyItem> = emptyList(),
                 @SerializedName("sell")
-                val sell: List<SellItem>?)
+                val sell: List<SellItem> = emptyList())
 
 
 data class BTC(@SerializedName("ticker")
-               val ticker: List<TickerItem>?,
+               val ticker: List<TickerItem> = emptyList(),
                @SerializedName("buy")
-               val buy: List<BuyItem>?,
+               val buy: List<BuyItem> = emptyList(),
                @SerializedName("sell")
-               val sell: List<SellItem>?)
+               val sell: List<SellItem> = emptyList())
 
 
 data class SellItem(@SerializedName("exchange_name")
@@ -86,42 +86,42 @@ data class BuyItem(@SerializedName("exchange_name")
 
 
 data class XRP(@SerializedName("ticker")
-               val ticker: List<TickerItem>?,
+               val ticker: List<TickerItem> = emptyList(),
                @SerializedName("buy")
-               val buy: List<BuyItem>?,
+               val buy: List<BuyItem> = emptyList(),
                @SerializedName("sell")
-               val sell: List<SellItem>?)
+               val sell: List<SellItem> = emptyList())
 
 
 data class BNB(@SerializedName("ticker")
-               val ticker: List<TickerItem>?,
+               val ticker: List<TickerItem> = emptyList(),
                @SerializedName("buy")
-               val buy: List<BuyItem>?,
+               val buy: List<BuyItem> = emptyList(),
                @SerializedName("sell")
-               val sell: List<SellItem>?)
+               val sell: List<SellItem> = emptyList())
 
 
 data class ETH(@SerializedName("ticker")
-               val ticker: List<TickerItem>?,
+               val ticker: List<TickerItem> = emptyList(),
                @SerializedName("buy")
-               val buy: List<BuyItem>?,
+               val buy: List<BuyItem> = emptyList(),
                @SerializedName("sell")
-               val sell: List<SellItem>?)
+               val sell: List<SellItem> = emptyList())
 
 
 data class LTC(@SerializedName("ticker")
-               val ticker: List<TickerItem>?,
+               val ticker: List<TickerItem> = emptyList(),
                @SerializedName("buy")
-               val buy: List<BuyItem>?,
+               val buy: List<BuyItem> = emptyList(),
                @SerializedName("sell")
-               val sell: List<SellItem>?)
+               val sell: List<SellItem> = emptyList())
 
 
 data class TRX(@SerializedName("ticker")
-               val ticker: List<TickerItem>?,
+               val ticker: List<TickerItem> = emptyList(),
                @SerializedName("buy")
-               val buy: List<BuyItem>?,
+               val buy: List<BuyItem> = emptyList(),
                @SerializedName("sell")
-               val sell: List<SellItem>?)
+               val sell: List<SellItem> = emptyList())
 
 
