@@ -11,11 +11,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.androdevlinux.coinfeed.databinding.MainFragmentBinding
 import com.androdevlinux.coinfeed.model.*
 import com.androdevlinux.coinfeed.network.LiveDataWrapper
 
-class MainFragment : Fragment() {
+class MainFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener {
 
     private lateinit var tickerRecyclerViewAdapter: TickerRecyclerViewAdapter
     private lateinit var _binding: MainFragmentBinding
@@ -44,9 +45,9 @@ class MainFragment : Fragment() {
 
         ticker = Ticker(BTC(), MATIC(), BCH(), XRP(), BNB(), ETH(), USDT(), LTC(), TRX())
         tickerRecyclerViewAdapter = TickerRecyclerViewAdapter(requireContext(), ticker)
-        binding.listRecyclerView.layoutManager = LinearLayoutManager(requireContext())
-        binding.listRecyclerView.adapter = tickerRecyclerViewAdapter
-
+        _binding.listRecyclerView.layoutManager = LinearLayoutManager(requireContext())
+        _binding.listRecyclerView.adapter = tickerRecyclerViewAdapter
+        _binding.swipeLayout.setOnRefreshListener(this)
         viewModel.getTickerData()
     }
 
@@ -56,12 +57,14 @@ class MainFragment : Fragment() {
                 // Loading data
             }
             LiveDataWrapper.RESPONSESTATUS.ERROR -> {
-                // Error for http request
+                // Error for https request
+                _binding.errorHolder.visibility = View.VISIBLE
                 Log.d("mDataObserver", "LiveDataResult.Status.ERROR = ${result.response}")
 
             }
             LiveDataWrapper.RESPONSESTATUS.SUCCESS -> {
                 // Data from API
+                _binding.errorHolder.visibility = View.GONE
                 Log.d("mDataObserver", "LiveDataResult.Status.SUCCESS = ${result.response}")
                 result.response?.let {
                     processData(it)
@@ -88,7 +91,14 @@ class MainFragment : Fragment() {
         if (visible) {
             _binding.progressBar.visibility = View.VISIBLE
         } else {
+            if (_binding.swipeLayout.isRefreshing) {
+                _binding.swipeLayout.isRefreshing = false
+            }
             _binding.progressBar.visibility = View.INVISIBLE
         }
+    }
+
+    override fun onRefresh() {
+        viewModel.getTickerData()
     }
 }
